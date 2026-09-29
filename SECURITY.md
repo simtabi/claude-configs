@@ -4,7 +4,7 @@
 
 **Do not file public issues for security reports.** Use either:
 
-- Email: `opensource@simtabi.com` (preferred)
+- Email: `security@simtabi.com`
 - GitHub private advisory:
   <https://github.com/simtabi/claude-configs/security/advisories/new>
 
