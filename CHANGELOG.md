@@ -502,6 +502,7 @@ The data model is in `VendorAdapter` / `ProjectFile`; the verbs are
   a secret pattern.
 - `view` refuses path-traversal (`../`).
 
+[Unreleased]: https://github.com/simtabi/claude-configs/compare/v0.4.2...HEAD
 [0.4.2]: https://github.com/simtabi/claude-configs/releases/tag/v0.4.2
 [0.4.1]: https://github.com/simtabi/claude-configs/releases/tag/v0.4.1
 [0.4.0]: https://github.com/simtabi/claude-configs/releases/tag/v0.4.0
