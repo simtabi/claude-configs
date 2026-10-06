@@ -7,6 +7,9 @@ on:
 
 jobs:
   publish:
+    # PyPI publishing is paused until the owner sets the repository (or org)
+    # variable PUBLISH_PYPI to 'true'. Tags still build and release on GitHub.
+    if: ${{ vars.PUBLISH_PYPI == 'true' }}
     name: publish to PyPI
     runs-on: ubuntu-latest
     environment:
